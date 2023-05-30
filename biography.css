@@ -9,6 +9,14 @@ font-family: Nosifer,cursive;
 *{box-sizing:border-box;max-width:1080px}
 @font-face{font-family:'molotregular';src:url(fonts/Molot-webfont.eot);src:url(fonts/Molot-webfont.eot?#iefix) format("embedded-opentype"),url(fonts/Molot-webfont.woff2) format("woff2"),url(fonts/Molot-webfont.woff) format("woff"),url(fonts/Molot-webfont.ttf) format("truetype"),url(fonts/Molot-webfont.svg#molotregular) format("svg");font-weight:400;font-style:normal}
 body{background:linear-gradient(#e81010,#E97451,#253CE8)}
+#preloader{
+	background: #000 url(images/loader.gif) no-repeat center center;
+	height:100vh;
+	width: 100%;
+	position: fixed;
+	z-index: 100;
+	background-size: 5%;
+}
 .down{background-color:#253CE8;color:#fff;font-size:1vw;font-weight:bolder;text-align:center;align-self:center;padding:1vw;width:5%;margin:0 auto;margin-left:2vw;margin-bottom:1vw;margin-top:1vw}
 .down a{text-decoration:none;color:#fff}
 .down a:hover{color:#253CE8;background-color:#e81010}
